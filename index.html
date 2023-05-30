@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="res.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,300;1,400&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img class="i" src="reslogo.jpg" alt="logo">
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Contact us</li>
+        </ul>
+    </header>
+
+    <main>
+
+        <form id="foodType">
+            <fieldset>
+                <legend> What food do you think we should add?</legend>
+                <label for="name">Food name:</label>
+                <input type="text" id="name">
+                <br>
+
+                <label for="types">Type of the food :</label>
+                <select name="types" id="types">
+                    <!-- <label for="types" id="types">Choose a type:</label> -->
+                    <option value="Fruit & vegetables">Fruit and vegetables</option>
+                    <option value="Starchy food">Starchy food</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Protein">Protein</option>
+                    <option value="Fat">Fat</option>
+                </select>
+                <br>
+
+                <label for="price" >Price: </label>
+                <input type="text" id="price" placeholder="Ex : 2JD">
+                <br>
+
+                <input type="submit" value="Submit" id="save">
+            </fieldset>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="tBody">
+                
+            </tbody>
+
+
+
+        </table>
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+    <script src="Restaurant.js">
+
+    </script>
+</body>
+
+</html>
