@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    height: 150px;
+    display: flex;
+}
+header img{
+    height: 150px;
+    display: flex;
+}
+header ul{
+    display: flex;
+    gap: 30px;
+    right: 140px;
+    position: absolute;
+    top: 75px;
+    color: #f65275;
+}
+form{
+
+    position: relative;
+    top: 90px;
+    left: 400px;
+    width: 700px;
+    border: #f65275 solid 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type=text]{
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border: #f65275 solid 2px;
+  }
+  select{
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border: #f65275 solid 2px;
+  }
+  table{
+    border:2px solid #f65275;
+    position: absolute;
+    text-align: center;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+    top: 500px;
+    left: 380px;
+}
+
+table, th, td {
+    border:solid 2px #f65275 ;
+    margin: auto;
+    font-size: 15px;
+    background-color: #FBFBF9;
+    
+}
