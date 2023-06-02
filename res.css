@@ -22,6 +22,9 @@ header ul{
     top: 75px;
     color: #f65275;
 }
+main{
+    height: 500px
+}
 form{
 
     position: relative;
@@ -65,4 +68,12 @@ table, th, td {
     font-size: 15px;
     background-color: #FBFBF9;
     
+}
+.f1{
+    position: absolute;
+    left: 100px;
+}
+.f2{
+    position: absolute;
+    left: 120px;
 }

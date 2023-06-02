@@ -3,7 +3,7 @@
 
 
 let x = 999;
-let y=0
+let y=0;
 function getId(x) {
     y += 1;
     return x+y;
